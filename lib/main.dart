@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:food_app/auth/sign_in.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: SignIn(),
     );
   }
 }
